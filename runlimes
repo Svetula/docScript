@@ -1,0 +1,6 @@
+#!/bin/bash
+gnome-terminal -x sh -c './runui exec bash'
+cd "/home/user/Documents/Uni Paderborn/LIMES/limes-core/target"
+java -jar limes-core-1.6.1-SNAPSHOT.jar -s
+
+
